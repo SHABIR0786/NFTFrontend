@@ -1,0 +1,194 @@
+@import url('https://rsms.me/inter/inter.css');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #1C1D22 !important;
+  font-family: 'Inter';
+  padding:20px;
+}
+.home header {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+height:50px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #ffff;
+}
+.home header > p {
+  float:left;
+}
+.home header > p + div {
+  float:right;
+  font-size:14px;
+  color: rgba(255, 255, 255, 0.3);
+}
+.home header div > p {
+  display:inline-block;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.home header .circle-block i{
+    font-size: 9px;
+    margin-left: 4px;
+    display: block;
+    position: absolute;
+    margin-top:2px;
+}
+.home header .circle-block i + i{
+    margin-top: 6px;
+}
+
+.home header .circle-block{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 7px;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    color:black;
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+}
+.chart-info{
+  padding:15px;
+}
+
+.sparkline-graph .market-price{
+left: calc(50% - 87px/2 - 43px);
+display:inline-block;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.sparkline-graph .market-price p{
+  display:inline-block;
+}
+.sparkline-graph .current-price{
+  display: inline-block;
+  color:#18BC63;
+  position: absolute;
+  margin-top: 6px;
+  margin-left:5px;
+  font-size:12px;
+}
+
+.right-info > p {
+color: rgba(255, 255, 255, 0.3);
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 130%;
+}
+.right-info > p + p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;  
+  color: #ffff;
+}
+.right-info {
+float:right;
+text-align:right;
+}
+.chart-wrapper {
+  width: 100%;
+  border-bottom: 2px solid var(--fill);
+  background: linear-gradient(0deg, rgba(230, 230, 255, 0.05), rgba(230, 230, 255, 0.05)), #1C1D22;
+  border-radius:20px;
+}
+
+.control-btns {
+  display:inline-block;
+}
+.control-btns span{
+background: white;
+color: #FFFFFF;
+display: inline-block;
+justify-content: center;
+align-items: center;
+margin:5px;
+text-align: center;
+width: 57.4px;
+height: 26px;
+left: 65.4px;
+/* padding-top:5px; */
+border-radius:5px;
+background: none;
+cursor:pointer;
+}
+.control-btns span.active{
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.collection .navbar p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;  
+  color: rgba(255, 255, 255, 0.3);
+}
+.collection .list-group-item{
+  background:none;
+  border:none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+.list-group-item .list-group-item-left img{
+  border-radius:10px;
+}
+.list-group-item .list-group-item-left div{
+  margin-left:10px;
+}
+
+.list-group-item .list-group-item-left p{
+font-style: normal;
+padding:0px;
+margin:0px;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color:#FFFFFF;
+}
+.list-group-item .list-group-item-left span{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.3);
+  }
+
+.list-group-item span p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  display:inline-block;
+  color: #FFFFFF;
+}
+.list-group-item span > img {
+  display:inline-block;
+  padding-right: 3px;
+  width:20px;
+  height:15px;
+}
+
+#date {
+  display:none;
+  position: absolute;
+  z-index: 1000000;
+  color: white;
+  border-radius: 29%;
+  margin-top: 53px;
+}
